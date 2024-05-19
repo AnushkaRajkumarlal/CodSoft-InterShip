@@ -1,0 +1,34 @@
+<div class="social-links">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="far fa-envelope"></i>
+        </div>
+        .social-links::before{
+            content: "";
+            width: 80%;
+            height: 3px;
+            position: absolute;
+            top:42%;
+            left: -150px;
+            background-color: #494234;
+        }
+        .social-links i{
+            margin-left: 10px;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background-color: #93C572;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.5s;
+        }
+        .social-links i:hover{
+            transform: translateY(-5px);
+        }
+        .social-links{
+            position: absolute;
+            right: 5%;
+            bottom: 5%;
+        }
